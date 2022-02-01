@@ -465,10 +465,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/etc/mddb/MDDB.META_MT6771_S00_MOLY_LR12A_R2_PIE_RM_PR2_TC16_SP_V1_P3_1_ulwctg_n.EDB:$(TARGET_COPY_OUT_VENDOR)/etc/mddb/MDDB.META_MT6771_S00_MOLY_LR12A_R2_PIE_RM_PR2_TC16_SP_V1_P3_1_ulwctg_n.EDB \
     vendor/oppo/CPH1859/proprietary/vendor/etc/mddb/MDDB_InfoCustomAppSrcP_MT6771_S00_MOLY_LR12A_R2_PIE_RM_PR2_TC16_SP_V1_P3_1_ulwctg_n.EDB:$(TARGET_COPY_OUT_VENDOR)/etc/mddb/MDDB_InfoCustomAppSrcP_MT6771_S00_MOLY_LR12A_R2_PIE_RM_PR2_TC16_SP_V1_P3_1_ulwctg_n.EDB \
     vendor/oppo/CPH1859/proprietary/vendor/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat:$(TARGET_COPY_OUT_VENDOR)/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat \
-    vendor/oppo/CPH1859/proprietary/vendor/etc/media_codecs_mediatek_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mediatek_audio.xml \
-    vendor/oppo/CPH1859/proprietary/vendor/etc/media_codecs_mediatek_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mediatek_video.xml \
-    vendor/oppo/CPH1859/proprietary/vendor/etc/media_codecs_oppo_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_oppo_performance.xml \
-    vendor/oppo/CPH1859/proprietary/vendor/etc/media_codecs_oppo_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_oppo_video.xml \
     vendor/oppo/CPH1859/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/oppo/CPH1859/proprietary/vendor/etc/ncf_pack.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/ncf_pack.ncf \
     vendor/oppo/CPH1859/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
