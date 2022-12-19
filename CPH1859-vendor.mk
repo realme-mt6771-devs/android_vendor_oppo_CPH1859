@@ -88,7 +88,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/bin/hw/vendor.oppo.engnative.engineer@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.engnative.engineer@1.0-service \
     vendor/oppo/CPH1859/proprietary/vendor/bin/hw/vendor.oppo.engnative.engsensor@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.engnative.engsensor@1.0-service \
     vendor/oppo/CPH1859/proprietary/vendor/bin/hw/vendor.oppo.engnative.messager@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.engnative.messager@1.0-service \
-    vendor/oppo/CPH1859/proprietary/vendor/bin/hw/vendor.oppo.hardware.biometrics.face@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.biometrics.face@1.0-service \
     vendor/oppo/CPH1859/proprietary/vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprintpay@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.biometrics.fingerprintpay@1.0-service \
     vendor/oppo/CPH1859/proprietary/vendor/bin/hw/vendor.oppo.hardware.cryptoeng@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.cryptoeng@1.0-service \
     vendor/oppo/CPH1859/proprietary/vendor/bin/hw/vendor.oppo.hardware.ktv@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.ktv@1.0-service \
@@ -432,7 +431,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/etc/init/vendor.oppo.engnative.engineer@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.engnative.engineer@1.0-service.rc \
     vendor/oppo/CPH1859/proprietary/vendor/etc/init/vendor.oppo.engnative.engsensor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.engnative.engsensor@1.0-service.rc \
     vendor/oppo/CPH1859/proprietary/vendor/etc/init/vendor.oppo.engnative.messager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.engnative.messager@1.0-service.rc \
-    vendor/oppo/CPH1859/proprietary/vendor/etc/init/vendor.oppo.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.biometrics.face@1.0-service.rc \
     vendor/oppo/CPH1859/proprietary/vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprintpay@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.biometrics.fingerprintpay@1.0-service.rc \
     vendor/oppo/CPH1859/proprietary/vendor/etc/init/vendor.oppo.hardware.cryptoeng@1.0-service_FDE.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.cryptoeng@1.0-service_FDE.rc \
     vendor/oppo/CPH1859/proprietary/vendor/etc/init/vendor.oppo.hardware.ktv@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.ktv@1.0-service.rc \
@@ -924,7 +922,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.2.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.3.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib/vendor.oppo.hardware.biometrics.face@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.biometrics.face@1.0.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/vendor.oppo.hardware.camera.engmode@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.camera.engmode@1.0.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/vendor.oppo.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.camera.slogan@1.0.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/vendor.oppo.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.commondcs@1.0.so \
