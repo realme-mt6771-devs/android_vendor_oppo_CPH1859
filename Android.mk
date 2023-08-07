@@ -6,4 +6,71 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),CPH1859)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := ImsService
+LOCAL_MODULE_OWNER := realme
+LOCAL_SRC_FILES := proprietary/priv-app/ImsService/ImsService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := mediatek-common
+LOCAL_MODULE_OWNER := realme
+LOCAL_SRC_FILES := proprietary/framework/mediatek-common.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_ENFORCE_USES_LIBRARIES := false
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := mediatek-framework
+LOCAL_MODULE_OWNER := realme
+LOCAL_SRC_FILES := proprietary/framework/mediatek-framework.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_ENFORCE_USES_LIBRARIES := false
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := mediatek-ims-common
+LOCAL_MODULE_OWNER := realme
+LOCAL_SRC_FILES := proprietary/framework/mediatek-ims-common.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_ENFORCE_USES_LIBRARIES := false
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := mediatek-telecom-common
+LOCAL_MODULE_OWNER := realme
+LOCAL_SRC_FILES := proprietary/framework/mediatek-telecom-common.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_ENFORCE_USES_LIBRARIES := false
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := mediatek-telephony-base
+LOCAL_MODULE_OWNER := realme
+LOCAL_SRC_FILES := proprietary/framework/mediatek-telephony-base.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_ENFORCE_USES_LIBRARIES := false
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
 endif
